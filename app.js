@@ -28,8 +28,8 @@ app.use(function* (next) {
 
         // // // 错误处理测试使用
         if (chunkIndex == 1) {
-          console.log(`set failed of ${chunkIndex}`);
-          this.status = 500;
+          // console.log(`set failed of ${chunkIndex}`);
+          // this.status = 500;
         }
       }
       else {
